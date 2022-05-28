@@ -1,0 +1,14 @@
+{
+  "name": "react-express-cicd",
+  "version": "1.0.0",
+  "description": "a complete reactjs-express app CICD implementation using github action and digitalocean",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Anil Shrestha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
