@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <div>User</div>
+      <div>User name:</div>
       <div>{user.name}</div>
     </>
   );
