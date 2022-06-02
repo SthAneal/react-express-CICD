@@ -4,7 +4,7 @@ const path = require('path');
 
 app.use(express.static(path.join(__dirname,'/frontend/build')));
 
-app.get('/name', (req, res)=>{
+app.get('/api/name', (req, res)=>{
     res.send('Anil Shrestha + Mira Shrestha');
 });
 

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import axios from 'axios';
+import Axios from './api/Axios';
 import './App.css';
 import {Login} from './components/Login';
 import {Register} from './components/Register';
@@ -19,7 +19,7 @@ function App() {
   }, [])
 
   const getName = async ()=>{
-    const response = await axios.get('/name');
+    const response = await Axios.get('/name');
     console.log(response);
     setUser({name:response.data});
   }
