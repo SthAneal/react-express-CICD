@@ -1,7 +1,7 @@
 import Axios from 'axios';
 
 export default Axios.create({
-    baseURL:"http://143.198.234.42", // for production
+    baseURL:"http://128.199.11.49", // for production
     // baseURL:"http://localhost:5000", // only for local
     withCredentials: false,
     headers:{
