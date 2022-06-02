@@ -19,7 +19,7 @@ function App() {
   }, [])
 
   const getName = async ()=>{
-    const response = await Axios.get('/name');
+    const response = await Axios.get('/app/name');
     console.log(response);
     setUser({name:response.data});
   }
